@@ -1,0 +1,63 @@
+.video-container {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.2s;
+  font-size: 1.2rem;
+
+  .video__player {
+    width: 50vw;
+    min-width: 350px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    box-shadow: 5px 5px grey;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+
+    &__title {
+      margin: 15px;
+    }
+
+    &__wrapper {
+      border: solid 2px;
+      background-color: black;
+      margin: auto;
+      width: 30vw;
+      min-width: 300px;
+    }
+
+    p {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .athlete {
+    margin-top: 10px;
+
+    &__country-icon {
+      width: 20px;
+      height: 20px;
+    }
+    &__sport-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .button {
+    margin: 30px;
+    width: 110px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 1rem;
+    background-color: darkgray;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2s;
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+}

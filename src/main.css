@@ -1,0 +1,140 @@
+.container {
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.container .video {
+  width: 50vw;
+  min-width: 350px;
+  border: solid 1px grey;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container .video__title {
+  margin: 10px;
+}
+
+.container .video__poster {
+  width: 25vw;
+  height: 35vh;
+  min-width: 300px;
+  min-height: 200px;
+  margin: 10px;
+  border: solid 2px black;
+}
+
+.container .video p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  font-size: 1.2rem;
+}
+
+.video-container .video__player {
+  width: 50vw;
+  min-width: 350px;
+  border: solid 1px grey;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px grey;
+          box-shadow: 5px 5px grey;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.video-container .video__player__title {
+  margin: 15px;
+}
+
+.video-container .video__player__wrapper {
+  border: solid 2px;
+  background-color: black;
+  margin: auto;
+  width: 30vw;
+  min-width: 300px;
+}
+
+.video-container .video__player p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.video-container .athlete {
+  margin-top: 10px;
+}
+
+.video-container .athlete__country-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.video-container .athlete__sport-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.video-container .button {
+  margin: 30px;
+  width: 110px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: darkgray;
+  text-transform: uppercase;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.video-container .button:hover {
+  background-color: lightgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .heading {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
